@@ -1,0 +1,49 @@
+up_line{
+    border: 1px solid #80D4BE;
+    height: 1px;
+    width: 100%;
+}
+.footer_container{
+    color: #FFF;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.footer_content {
+    text-align: center;
+    width: 100%;
+}
+.footer_content h1{
+    padding-bottom: 1rem;
+}
+.footer_content_content_item{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_media h3 , .icon_space{
+    padding: .5rem;
+}
+.icon_space{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.participants h3{
+text-align: start;
+padding: .5rem;
+}
+ul{
+    list-style-type: none;
+    li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: .3rem;
+    }
+}
+.some-network__share-button:hover:not(:active) {
+    opacity: 0.75;
+  }

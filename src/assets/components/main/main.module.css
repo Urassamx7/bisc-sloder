@@ -1,0 +1,113 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+.letter_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-size: 24px;
+    text-align: center;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #F0F0F0;
+    margin-bottom: 3rem;
+}
+.main_img{
+    padding-left: 3rem;
+    width: 45%;
+    height: 50%;
+    object-fit: cover;
+}
+.main_img IMG{
+    width: 40%;
+}
+.text{
+    padding-top: 2rem;
+    align-self: flex-start;
+    text-align: left;
+    font-size: 20px;
+    text-wrap: pretty;
+    width: 55%;
+    margin: 0 80px 0 0;
+}
+.text span{
+    padding: 2px;
+    color: #FFF;
+    background-color: #02A97F;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.optional{
+    background-color: #FFF;
+}
+p .yes{
+    color: #000;
+    font-weight: bold;
+    background-color: transparent;
+}
+.create_acc{
+    margin-top: .5rem;
+    color: #FFF;
+    background-color: #000;
+    border: .5px solid #000;
+    border-radius: 2px;
+    padding: .3rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.create_acc:hover{
+    background-color: #02A97F;
+    color: #FFF;
+    border: .5px solid #02A97F;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.text_opt{
+    text-align: center;
+}
+.pre_footer{
+    background-color: #1E1E1E;
+    color: #FFF;
+    display: flex;
+    position: relative;
+    overlay: none;
+   
+}
+.pre_footer .text{
+    margin: 0 40px;
+    width: 60%;  
+    justify-self: center;
+    align-self: center;
+    text-align: center;  
+}
+.pre_footer .main_img{
+    width: 40%;
+    
+}
+.pre_footer .main_img img{
+width: 100%;
+}
+.pre_footer .text button{
+    color: #FFF;
+    background-color: #02A97F;
+    font-weight: bold;
+    font-size: 1.25rem;
+    justify-self: center;
+    border-radius: 2px;
+    border: none;
+    padding: .6rem;
+    margin-top: 1rem;
+}
+.pre_footer .text button:hover{
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
