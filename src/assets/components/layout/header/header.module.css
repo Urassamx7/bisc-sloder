@@ -9,6 +9,10 @@ header{
     justify-content: space-between;
     padding: 1rem;
     margin: 0 auto;
+    h1{
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
    
 }
 .div_starter_btn{
@@ -49,7 +53,7 @@ header{
 }
 .handle_container{
     display: flex;
-    justify-content: space-between;
+    margin-left: 5rem; 
     position: relative;
 }
 
@@ -63,7 +67,10 @@ width: 60%;
 }
 .content_description p{
     margin: .3rem;
-    font-size: 20px;
+    font-size: 1.275rem;
+}
+h2{
+    font-size: 2.5rem;
 }
 .handle_to_search{
 width: 100%;
@@ -109,6 +116,9 @@ margin: 12px 0;
     border-radius: 5px;
     padding: .75rem 3rem;
     color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: .4rem;
 }
 .btn_quick_search button:hover{
     background-color: #83D5C0;
@@ -117,11 +127,24 @@ margin: 12px 0;
     transition: .3s ease-in;
 }
 .bisc_img {
-    width: 100px;
-    height: 100px;
+    width: 40%;
+    z-index: 999;
+    position: relative;
 }
 .bisc_img > img{
-    width: 100%;
+ 
+    width: 50%;
     height: 100%;
+    
+}
+.rounded_white{
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    z-index: 1;
 }
 

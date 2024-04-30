@@ -17,6 +17,8 @@ up_line{
 }
 .footer_content h1{
     padding-bottom: 1rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 .footer_content_content_item{
     display: flex;

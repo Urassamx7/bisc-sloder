@@ -21,29 +21,31 @@ export default function Footer() {
             <div className={styles.social_media}>
               <h3>Para mais informações Contacte:</h3>
               <div className={styles.icon_space}>
-                <FacebookShareButton url={"https://www.facebook.com/"} className="some-network__share-button">
+                <FacebookShareButton
+                  url={"https://www.facebook.com/"}
+                  className="some-network__share-button"
+                >
                   <FacebookIcon size={32} round={true} />
                 </FacebookShareButton>
-                <LinkedinShareButton url={"https://www.linkedin.com/"} className="some-network__share-button">
+                <LinkedinShareButton
+                  url={"https://www.linkedin.com/"}
+                  className="some-network__share-button"
+                >
                   <LinkedinIcon size={32} round={true} />
                 </LinkedinShareButton>
-                <TwitterShareButton url={"https://twitter.com/"} className="some-network__share-button">
+                <TwitterShareButton
+                  url={"https://twitter.com/"}
+                  className="some-network__share-button"
+                >
                   <TwitterIcon size={32} round={true} />
                 </TwitterShareButton>
-                <WhatsappShareButton url={"https://wa.me/+258842821131"} className="some-network__share-button">
+                <WhatsappShareButton
+                  url={"https://wa.me/+258842821131"}
+                  className="some-network__share-button"
+                >
                   <WhatsappIcon size={32} round={true} />
                 </WhatsappShareButton>
               </div>
-            </div>
-            <div className={styles.participants}>
-              <h3>Projecto criado e desenvolvido por:</h3>
-              <ul>
-                <li>Amâncio Chiluvane (Project Mananger)</li>
-                <li>Evgueni Macucule (Designer and Developer Backend)</li>
-                <li>Fenando Chavele (Software documentarian) </li>
-                <li>Nicolau Buque (Software documentarian and Developer Backend)</li>
-                <li>Marvin Mussacate (Developer Frontend) </li>
-              </ul>
             </div>
           </div>
         </div>

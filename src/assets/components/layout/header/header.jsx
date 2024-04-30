@@ -18,9 +18,12 @@ export default function Header() {
         <div className={style.quick_access}>
           <div className={style.content_description}>
             <p>São mais de 500 trabalhadores</p>
-            <h2>Encontre o trabalhador dos seus sonhos</h2>
+            <h2>
+              Encontre o trabalhador <br />
+              dos seus sonhos
+            </h2>
           </div>
-
+          <div className={style.rounded_white}></div>
           <div className={style.handle_to_search}>
             <div className={style.input_search}>
               <input

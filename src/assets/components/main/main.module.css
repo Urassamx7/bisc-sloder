@@ -1,6 +1,7 @@
 .main_container{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .letter_content{
     display: flex;
@@ -24,6 +25,7 @@
     width: 45%;
     height: 50%;
     object-fit: cover;
+    z-index: 999;
 }
 .main_img IMG{
     width: 40%;
@@ -36,6 +38,11 @@
     text-wrap: pretty;
     width: 55%;
     margin: 0 80px 0 0;
+    font-weight: 400;
+}
+h3{
+    padding-bottom: .3rem;
+    font-weight: 700;
 }
 .text span{
     padding: 2px;
@@ -46,6 +53,7 @@
 }
 .optional{
     background-color: #FFF;
+    
 }
 p .yes{
     color: #000;
@@ -110,4 +118,14 @@ width: 100%;
     color: #FFF;
     cursor: pointer;
     transition: .3s ease-in-out;
+}
+.rounded_green{
+    background-color: #02A97F;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    bottom: 67%;
+    left: 3%;
 }
