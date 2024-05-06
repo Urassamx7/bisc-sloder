@@ -8,8 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2.5rem;
     font-size: 24px;
+    font-weight: 500;
     text-align: center;
 }
 .newsletter{
@@ -21,6 +22,8 @@
     margin-bottom: 3rem;
 }
 .main_img{
+    display: flex;
+    justify-content: center;
     padding-left: 3rem;
     width: 45%;
     height: 50%;
@@ -28,7 +31,7 @@
     z-index: 999;
 }
 .main_img IMG{
-    width: 40%;
+    width: 50%;
 }
 .text{
     padding-top: 2rem;
@@ -42,7 +45,7 @@
 }
 h3{
     padding-bottom: .3rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 .text span{
     padding: 2px;
@@ -69,13 +72,14 @@ p .yes{
     padding: .3rem;
     font-weight: bold;
     font-size: 1.25rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 .create_acc:hover{
-    background-color: #02A97F;
-    color: #FFF;
-    border: .5px solid #02A97F;
+    color: #000;
+    background-color: #FFF;
+    border: .5px solid black;
     cursor: pointer;
-    transition: .3s ease-in-out;
+   
 }
 .text_opt{
     text-align: center;
@@ -112,20 +116,24 @@ width: 100%;
     border: none;
     padding: .6rem;
     margin-top: 1rem;
+    border: .5px solid #02A97F;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
 }
 .pre_footer .text button:hover{
-    background-color: #000;
-    color: #FFF;
+    background-color: #02A97F;
+    color: white;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    filter: brightness(1.2);
 }
 .rounded_green{
     background-color: #02A97F;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     z-index: 1;
     position: absolute;
-    bottom: 67%;
-    left: 3%;
+    bottom: 60%;
+    left: 10%;
+ 
 }
