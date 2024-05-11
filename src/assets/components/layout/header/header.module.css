@@ -7,11 +7,16 @@ header{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    margin: 0 auto;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin: 0 2rem;
     h1{
         text-transform: uppercase;
         letter-spacing: .1rem;
+        font-size: 1.5rem;
+    }
+    button{
+        padding: .8rem 1.2rem;
     }
    
 }
@@ -24,8 +29,8 @@ header{
     background-color: transparent;
     border: 1px solid #83D5C0;
     border-radius: 5px;
-    padding: 0 .9rem;
     color: #FFF;
+    font-size: .8rem;
 }
 .div_starter_btn #open_btn:hover{
     background-color: #83D5C0;
@@ -53,7 +58,7 @@ header{
 }
 .bottom_line{
     border: 1px solid #83D5C0;
-    margin-bottom: 2rem;
+    margin: 0 2rem 2rem 2rem;
 }
 .handle_container{
     display: flex;
@@ -71,10 +76,10 @@ width: 60%;
 }
 .content_description p{
     margin: .3rem;
-    font-size: 1.275rem;
+    font-size: 1.1rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .handle_to_search{
 width: 100%;
@@ -95,11 +100,11 @@ margin: 12px 0;
     position: absolute;
     top: 13%;
     left: 65%;
-    background-color: #000AFF;
+    background-color: #000AFF; 
+    border: .5px solid rgb(29, 29, 231);
     color: #FFF;
     padding: .4rem;
     border-radius: 4px;
-    border: none;
     width: 100px;
     height: 35px;
     cursor: pointer;
