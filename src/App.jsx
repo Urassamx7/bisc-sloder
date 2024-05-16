@@ -1,16 +1,14 @@
-import Header from "./assets/components/layout/header/header"
-import Main from "./assets/components/main/main"
-import Footer from "./assets/components/layout/footer/footer"
+import Homepage from "./assets/components/HomePage/home";
+import Login from "./assets/components/login/login";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <>
-     <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-     </div>
-    </>
-  )
+
+      <Routes>
+        <Route path="/bisc-sloder" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,11 @@
 import style from "./header.module.css";
 import biscateiro from "../../../images/imagebisc1.png";
+import { useNavigate } from "react-router-dom";
 export default function Header() {
+ const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/login");
+  };
   return (
     <div className={style.container_nav}>
       <header>
@@ -8,7 +13,9 @@ export default function Header() {
           <h1>Biscateiro</h1>
         </div>
         <div className={style.div_starter_btn}>
-          <button id={style.open_btn}>Entrar</button>
+          <button id={style.open_btn} onClick={handleClick}>
+            Entrar
+          </button>
           <button id={style.signup_btn}>Cadastre-se gratuitamente</button>
         </div>
       </header>
