@@ -32,7 +32,9 @@ export default function Login() {
               <div className={styles.btn}>
                 <button id={styles.forgot}>Forgot password?</button>
                 <br />
-                <button id={styles.login} onClick={goBack}>Login</button>
+                <button id={styles.login} onClick={goBack}>
+                  Login
+                </button>
                 <button id={styles.signup}>Or Signin</button>
               </div>
             </form>

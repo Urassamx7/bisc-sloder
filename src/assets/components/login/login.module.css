@@ -104,4 +104,27 @@ input::placeholder{
     color: #7e7c7c;
     transition: box-shadow 0.3s ease;
 }
-
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 450px;
+background-color: #53C5A8;
+}
+.bg_green{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ACE3D5;
+    position: relative;
+}
+.bg_green img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    
+    
+}
